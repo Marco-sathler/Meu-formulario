@@ -55,11 +55,11 @@ label{
 }
 @media(orientation:portrait){
     body{
-
        background-image:url(imagem1.jpg);
        /*background-size:cover;*/
        background-repeat: no-repeat;
        color: white;
+       margin:0px;
     }
 
        h1,.um{
@@ -67,6 +67,7 @@ label{
         text-align: center;
         display: inline-block;
         width: 100vw;
+       
      }
      input{
         margin-bottom: 10px;
@@ -74,9 +75,8 @@ label{
     fieldset{
         background-color: #2b64b5;
         border: 0px solid;
-        padding: 30px;
         padding-bottom: 40px;
-        heigth: 100vh;
+        height: 100vh;
        
     }
     p{
@@ -97,7 +97,7 @@ label{
         width:100vw; height: 100px;
     }
     .dois{
-        width:100vw; height:5vw ;
+        width:100vw; height:10vw ;
         background-color: rgb(75, 193, 75);
         color: white;
     }
