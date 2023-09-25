@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> Cods Internacional Form </h1>
+    <p class="um"> Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+    <br>
+    <form >
+        <fieldset>
+            <br>
+            <label> Nome <br>
+                <input type="text" name="Nome" required maxlength="20" autofocus placeholder="Digite seu nome" class="doisa">
+            </label> <br>
+            <label> Emal <br>
+                <input type="email" name="email" required placeholder="Digite seu email" class="doisa">
+            </label> <br>
+            <label> Idade(opcional) <br>
+                <input type="number" name="idade" min="13" max="100" required placeholder="Idade" class="doisa">
+            </label><br>
+            <p>Qual opção melhor descreve sua função atual?</p>
+            <select class="doisa" >
+                <option disabled selected value> Selecione sua função atual </option>
+                <option value="student"> Estudante </option>
+                <option value="job-int"> Trabalho em tempo integral</option>
+                <option value="student-int">Aluno em tempo integral</option>
+                <option value="not">Prefiro não dizer</option>
+                <option value="other"> Outro </option>
+            </select>
+            <p> Você recomendaria o Cods International a algum amigo</p>
+            <label>  
+                <input type="radio" name="recomendar" required >Definitivamente
+            </label><br>
+            <label> 
+                <input type="radio" name="recomendar" required >Talvez 
+            </label><br>
+            <label> 
+                <input type="radio" name="recomendar" required >Não tenho certeza 
+            </label>
+            <p>Qual é o seu recurso favorito do Cods International?</p>
+            <select class="doisa">
+                <option disabled selected value="default">Selecione uma opção</option>
+                <option value="challenge">Desafios</option>
+                <option value="projects">Projetos</option>
+                <option value="community">Comunidade</option>
+                <option value="opensource">Código aberto</option>
+            </select>
+            <p>O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</p>
+            <label>
+                <input type="checkbox" name="front-end" > Front-end Projetos
+            </label>
+            <label><br>
+            <input type="checkbox" name="" > Back-end Projetos            
+           </label> <br>
+           <label>
+            <input type="checkbox" name="" > Visualização de dados
+           </label> <br>
+           <label>
+            <input type="checkbox" name="" > Desafios
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Comunidade codigo aberto
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Salas de ajuda do Gitter
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Videos
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Encontros na cidade
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Wiki
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Forum
+           </label><br>
+           <label>
+            <input type="checkbox" name="" > Cursos adicionais
+           </label>
+           <P>Algum comentário ou sugestão?</P>
+           <textarea  class="doissa"  placeholder="Digite seu comentário aqui"></textarea>
+           <br><br>
+          <input type="submit" value="Enviar" class="dois" id="enter">
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+@media(orientation : landscape){
+
+body{
+  margin: 100px;
+ margin: 200px;
+    margin-top: 100px;
+   background-image:url(imagem1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+}
+h1,.um{
+   font-family: 'Mooli';
+   text-align: center;
+  
+}
+input{
+    margin-bottom: 10px;
+    
+}
+fieldset{
+    background-color: #2b64b5;
+    border: 0px solid;
+    width: 550px;
+    padding: 30px;
+    padding-bottom: 40px;
+
+    margin-left:23%;
+}
+p{
+    font-family: 'Mooli'; 
+}
+label{
+    line-height: 28px;
+    font-size: 20px;
+}
+.doisa{
+    width: 515px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+.doissa{
+    
+    width:100%; height: 100px;
+    
+    
+
+}
+.dois{
+    width: 100%; height: 50px;
+    background-color: rgb(75, 193, 75);
+    color: white;
+}
+}
+@media(orientation:portrait){
+    body{
+
+       background-image:url(imagem1.jpg);
+       /*background-size:cover;*/
+       background-repeat: no-repeat;
+       color: white;
+    }
+
+       h1,.um{
+        font-family: 'Mooli';
+        text-align: center;
+        display: inline-block;
+        width: 100vw;
+     }
+     input{
+        margin-bottom: 10px;
+    }
+    fieldset{
+        background-color: #2b64b5;
+        border: 0px solid;
+        padding: 30px;
+        padding-bottom: 40px;
+       
+    }
+    p{
+        font-family: 'Mooli'; 
+        
+        width: 100vw;
+    }
+    label{
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .doisa{
+        width: 100vw;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .doissa{
+        width:100vw; height: 100px;
+    }
+    .dois{
+        width:100vw; height:5vw ;
+        background-color: rgb(75, 193, 75);
+        color: white;
+    }
+
+}
